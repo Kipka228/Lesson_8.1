@@ -1,0 +1,145 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:regular,700,900&display=swap');
+
+body{
+	background: rgb(138, 2, 2);
+	background: linear-gradient(90deg, rgb(153, 40, 6) 0%, rgb(150, 26, 10) 2%, rgba(255,0,43,1) 79%);
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container{
+	width: 840px;
+	margin: 0 auto;
+}
+
+.title{
+	text-align: center;
+	margin-bottom: 40px;
+	color: rgb(92, 94, 25);
+	font-size: 45px;
+}
+
+.title-par{
+	text-align: center;
+	font-size: 30px;
+	color: rgb(17, 87, 190);
+	margin-bottom: 20px;
+}
+
+.paragraph1 a{
+	font-size: 20px;
+}
+
+.par1{
+	color: rgb(9, 182, 182);
+}
+
+.par1:visited{
+	color: rgb(52, 36, 201);
+}
+
+.par2:active{
+	border: 2px dashed rgb(194, 170, 170);
+	display: inline-block;
+}
+
+.par3:hover{
+	outline: 1px solid rgb(153, 190, 15);
+	color: aliceblue;
+}
+
+.par4:focus{
+	color: forestgreen;
+}
+
+.paragraph2{
+	margin-top: 20px;
+}
+
+.par5{
+	max-width: 190px;
+	margin-bottom: 15px;
+}
+
+.par6{
+	max-width: 285px;
+}
+
+.par5:first-line{
+	color: antiquewhite;
+}
+
+.par6::first-letter{
+	color: bisque;
+	font-size: 25px;
+}
+
+.paragraph3{
+	margin-top: 20px;
+}
+
+.par7:before{
+	content:"";
+	width: 15px;
+	height: 15px;
+	background: rgb(3, 226, 255);
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.par8:after{
+	content: "";
+	width: 40px;
+	height: 15px;
+	background: rgb(188, 165, 190);
+	display: inline-block;
+}
+
+.paragraph4{
+	margin-top: 20px;
+}
+
+.paragraph4 p:first-of-type{
+	color: beige;
+}
+
+.paragraph4 span:last-child{
+	color: darkseagreen;
+}
+
+.paragraph4 p:last-of-type{
+	color: blanchedalmond;
+}
+
+.paragraph5{
+	margin-top: 20px;
+}
+
+.number{
+	padding: 15px;
+	background: black;
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+
+.paragraph5 span:nth-child(odd){
+	background: white;
+	color: black;
+}
+
+.paragraph5 p:nth-of-type(2n){
+	background: rgb(138, 176, 179);
+	color: black;
+}
+
+
+
+
